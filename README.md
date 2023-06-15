@@ -1,52 +1,62 @@
-# About zip
+# ABOUT ZIP
 
 **This package will include directories:**
 
-### 1.cra folder
+### CRA FOLDER
 
-- Using react script & react router.
+- Using Create React App & React router.
 
-### 2.nextjs folder
+### NEXT FOLDER
 
-- Using for Next.Js
+- Using for Next.js
 
-### 3.simple folder
+### SIMPLE FOLDER
 
 - To remove unnecessary components. This is a simplified version ([https://simple.minimals.cc/](https://simple.minimals.cc/))
 - Good to start a new project. You can copy components from the full version.
 - Make sure to install the dependencies exactly as compared to the full version
 
-**NOTE:**
+---
 
-**1 - Recommended environment:**
+## 1.Requirements
 
-- node js 16.x
+- node js 16.x | 18.x
 - npm 6+
+- Do not delete the `package-lock.json` / `yarn.lock` file in the project.
+- _After downloading and extracting please do not delete any files._
 
-**2 - After downloading and extracting please do not delete any files.**
+## 2.Install
 
-## FOR CRA (REACT CREATE APP) :
+```yaml
+yarn install
+# Or
+npm i or npm i --legacy-peer-deps
+```
 
-**Using Yarn (Recommend)**
+## 3.Start
 
-- yarn install
-- yarn start
+**🔷 Create React App**
 
-**Using Npm**
+```yaml
+yarn start
+# Or
+npm start
+```
 
-- npm i OR npm i --legacy-peer-deps
-- npm start
+**🔶 Next.js**
 
-## FOR NEXT.JS :
+```yaml
+yarn dev
+# Or
+npm run dev
+```
 
-**Using Yarn (Recommend)**
+## 4.Build
 
-- yarn install
-- yarn dev
+```yaml
+yarn build
+# Or
+npm run build
+```
 
-**Using Npm**
-
-- npm i OR npm i --legacy-peer-deps
-- npm run dev
-
-[Learn more:](https://docs.minimals.cc/quick-start)
+[**Learn more:** https://docs.minimals.cc/quick-start](https://docs.minimals.cc/quick-start)
